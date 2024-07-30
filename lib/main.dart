@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         home: Consumer<AuthProvider>(
           builder: (context, authProvider, child) {
             if (authProvider.isAuthenticated) {
-              return LoginScreen();
+              return HomeScreen();
             } else {
               return LoginScreen();
             }

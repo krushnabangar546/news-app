@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class NewsService {
-  final String _apiKey = 'a0cc35eb42dc44b18e7946c778149b7d';
+  final String _apiKey = 'your-api-key';
 
   Future<List<dynamic>> fetchTopHeadlines(String countryCode) async {
     final url = Uri.parse(
